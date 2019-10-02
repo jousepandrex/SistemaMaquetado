@@ -1,0 +1,56 @@
+body {
+  background-color: #f1f2f2;
+  font-style: Open Sans;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0; }
+
+input {
+  font-size: 22px;
+  border-radius: 14px;
+  border: 0;
+  width: 400px;
+  margin: 0 0 0 1rem; }
+
+.button-icon {
+  border: 0;
+  border-radius: 16px;
+  font-size: 14px;
+  margin: 0 0 0 -40px;
+  padding: 9px 8px 6px 8px; }
+
+.main__navbar-serch {
+  background-color: red;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap; }
+  .main__navbar-serch .main__search {
+    background-color: yellow;
+    flex-grow: 1;
+    padding: 2rem 0 0 1rem; }
+  .main__navbar-serch .main__login {
+    background-color: blue; }
+    .main__navbar-serch .main__login .login {
+      background: pink;
+      display: flex;
+      margin: auto;
+      padding: 1rem 1rem 1rem 0; }
+      .main__navbar-serch .main__login .login .login1 {
+        padding: 20px 30px 0 0; }
+      .main__navbar-serch .main__login .login .login3 {
+        padding: 20px 0 0 0; }
+
+.main {
+  background-color: green;
+  display: flex;
+  margin: 0; }
+  .main .main__button {
+    background-color: purple;
+    flex-grow: 1;
+    padding: auto; }
+    .main .main__button .button-icon {
+      margin: 1rem 1rem 0 3rem; }
+  .main .main__button-2 {
+    background-color: red; }
+
+/*# sourceMappingURL=main.css.map */
