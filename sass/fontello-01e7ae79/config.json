@@ -79,12 +79,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "d2c6b59d9a239140cb76be0627480855",
-      "css": "dot",
-      "code": 59400,
-      "src": "entypo"
-    },
-    {
       "uid": "671f29fa10dda08074a4c6a341bb4f39",
       "css": "bell-alt",
       "code": 61683,
@@ -101,6 +95,12 @@
       "css": "circle",
       "code": 61713,
       "src": "fontawesome"
+    },
+    {
+      "uid": "d10920db2e79c997c5e783279291970c",
+      "css": "dot-3",
+      "code": 59400,
+      "src": "entypo"
     }
   ]
 }
