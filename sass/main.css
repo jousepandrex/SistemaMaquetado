@@ -261,27 +261,78 @@ hr {
   background-color: aqua;
   display: flex;
   margin: auto; }
-  .main-card .lyuot {
-    background-color: blue;
-    margin: 3rem 0 0 22rem;
-    padding: 0 0 3rem 0; }
-  .main-card .main-card__card {
+  .main-card .carta {
+    background-color: green;
+    border-right: 1px solid pink;
+    margin: 0 0 0 22rem;
+    padding: 0 4rem 0 0; }
+    .main-card .carta .lyuot {
+      background-color: blue;
+      margin: 3rem 0 0 0;
+      padding: 0 0 0 0; }
+      .main-card .carta .lyuot .nombre {
+        text-align: left; }
+        .main-card .carta .lyuot .nombre #tiny {
+          padding: 8px 0 8px 0; }
+        .main-card .carta .lyuot .nombre .button-icon {
+          margin: 0 0 0 2px; }
+    .main-card .carta .main-card__card {
+      background-color: red;
+      border-radius: 5px;
+      text-align: center; }
+      .main-card .carta .main-card__card .trash {
+        font-size: 12px;
+        padding: 0 10px 0 150px; }
+    .main-card .carta .imagen {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+    .main-card .carta .nombre {
+      background-color: pink;
+      margin: -26px 0 0 0; }
+    .main-card .carta h6 {
+      margin: -22px 0 0 0; }
+    .main-card .carta .nombre2 {
+      padding: 1rem 0 0 0;
+      text-align: left; }
+  .main-card .element {
     background-color: red;
-    border-radius: 5px;
-    text-align: center; }
-    .main-card .main-card__card .trash {
-      font-size: 12px;
-      padding: 0 25px 0 150px; }
-  .main-card .imagen {
-    background-color: orange;
-    border-radius: 0 0 5px 5px; }
-  .main-card .nombre {
-    background-color: pink;
-    margin: -26px 0 0 0; }
-  .main-card h6 {
-    margin: -22px 0 0 0; }
-  .main-card .nombre2 {
-    padding: 1rem 0 0 0;
-    text-align: left; }
+    color: blue;
+    margin: 22px 0 0 88px; }
+  .main-card #small-size {
+    margin: 0 0 0 1px; }
+
+.titulo {
+  background: yellow;
+  margin: 3rem 0 0 1rem;
+  padding: 0 3rem 0 0; }
+  .titulo .main__titulo {
+    background-color: pink; }
+  .titulo .cabecera {
+    background-color: blue;
+    border-radius: 8px;
+    display: flex;
+    padding: 5px 0 5px 0;
+    margin: 0 0 0 2rem; }
+    .titulo .cabecera .imagen {
+      background-color: red; }
+    .titulo .cabecera .datos {
+      background-color: orange;
+      padding: 5px 0 0 0; }
+    .titulo .cabecera .abajo {
+      background-color: pink;
+      margin: 0 0 0 2rem; }
+      .titulo .cabecera .abajo #large {
+        font-size: 12px;
+        width: 210px; }
+      .titulo .cabecera .abajo #large-size {
+        border: 1px solid #ccc;
+        border-radius: 0 18px 18px 0;
+        font-size: 12px;
+        margin: 4px 6px 0 -58px;
+        padding: 10px 20px 10px 16px; }
+    .titulo .cabecera .boton {
+      background-color: aqua;
+      padding: 8px 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */
