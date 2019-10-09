@@ -31,12 +31,6 @@
       "src": "typicons"
     },
     {
-      "uid": "3ab2abf6f936d3e53ee8c184cedaed82",
-      "css": "trash",
-      "code": 59394,
-      "src": "elusive"
-    },
-    {
       "uid": "d7271d490b71df4311e32cdacae8b331",
       "css": "home",
       "code": 59396,
@@ -101,6 +95,12 @@
       "css": "dot-3",
       "code": 59400,
       "src": "entypo"
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash-empty",
+      "code": 59402,
+      "src": "fontawesome"
     }
   ]
 }
