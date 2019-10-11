@@ -1,121 +1,263 @@
 body {
   background-color: #f1f2f2;
-  font-style: Open Sans;
+  font-family: Open Sans;
   margin: 0;
   overflow-x: hidden;
   padding: 0; }
+
 input {
+  background-color: #f8f8f8;
   font-size: 22px;
   border-radius: 14px;
   border: 0;
   width: 400px; }
+
 .button-icon {
   border: 0;
   border-radius: 20px;
   font-size: 14px;
   margin: 0 0 0 -40px;
-  padding: 9px 8px 6px 8px; }
+  padding: 7px 8px 3px 8px; }
+
 #tiny-size {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 10px;
   margin: 10px 6px 0 -4px;
   padding: 4px 14px 4px 14px; }
+
 #small-size {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 10px;
   margin: 10px 6px 0 -6px;
   padding: 10px 18px 10px 18px; }
+
 #medium-size {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 10px;
   margin: 10px 6px 0 -6px;
   padding: 14px 26px 14px 26px; }
+
 #large-size {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 12px;
   margin: 10px 6px 0 -6px;
   padding: 18px 46px 18px 40px; }
+
 #medium-size2 {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 12px;
   margin: 15px 4px 0 -6px;
   padding: 12px 32px 12px 32px; }
+
 #medium-size-2 {
+  background-color: #c7c7c7;
+  color: #ffffff;
   border: 1px solid #ccc;
-  border-radius: 16px 0 0 16px;
+  border-radius: 20px 0 0 20px;
   font-size: 10px;
   margin: 15px -22px 0 -6px;
   padding: 14px 20px 14px 18px; }
+
 #medium-size-3 {
+  background-color: #1f1f1f;
+  color: #ffffff;
   border: 1px solid #ccc;
-  border-radius: 0 16px 16px 0;
+  border-radius: 0 20px 20px 0;
   font-size: 10px;
   margin: 15px -22px 0 10px;
   padding: 14px 18px 14px 18px; }
+
 #medium {
   font-size: 12px;
   margin: 15px 6px 0 -6px;
   padding: 12px 22px 12px 22px; }
+
 #normal {
+  background-color: #1f1f1f;
+  color: #ffffff;
   font-size: 12px;
   margin: 15px 6px 0 -4px;
   padding: 12px 46px 12px 46px; }
+
 #action {
+  background-color: #37a164;
+  color: #ffffff;
   font-size: 12px;
   margin: 15px 6px 0 -2px;
   padding: 12px 48px 12px 50px; }
+
+#action1 {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 48px 12px 50px; }
+
+#action2 {
+  background-color: #37a164;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 48px 12px 50px; }
+
+#action3 {
+  background-color: #b54242;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 48px 12px 50px; }
+
+#action4 {
+  background-color: #c7c7c7;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 48px 12px 50px; }
+
 #warning {
+  background-color: #b54242;
+  color: #ffffff;
   font-size: 12px;
   margin: 15px 6px 0 -4px;
   padding: 12px 44px 12px 40px; }
+
 #secondary {
+  background-color: #c7c7c7;
+  color: #ffffff;
   font-size: 12px;
   margin: 15px 6px 0 -2px;
   padding: 12px 36px 12px 32px; }
+
 #pressed {
   font-size: 12px;
   margin: 15px 6px 0 -2px;
   padding: 12px 44px 12px 41px; }
+
+#pressed1 {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 44px 12px 41px; }
+
+#pressed2 {
+  background-color: #37a164;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 44px 12px 41px; }
+
+#pressed3 {
+  background-color: #b54242;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 44px 12px 41px; }
+
+#pressed4 {
+  background-color: #c7c7c7;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 44px 12px 41px; }
+
 #disable {
   font-size: 12px;
   margin: 15px 6px 0 -2px;
   padding: 12px 46px 12px 45px;
   opacity: 0.5; }
+
+#disable1 {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 46px 12px 45px;
+  opacity: 0.5; }
+
+#disable2 {
+  background-color: #37a164;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 46px 12px 45px;
+  opacity: 0.5; }
+
+#disable3 {
+  background-color: #b54242;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 46px 12px 45px;
+  opacity: 0.5; }
+
+#disable4 {
+  background-color: #c7c7c7;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 15px 6px 0 -2px;
+  padding: 12px 46px 12px 45px;
+  opacity: 0.5; }
+
 #tiny {
+  background-color: #f8f8f8;
   font-size: 12px;
   padding: 3px 0 3px 15px;
   width: 120px; }
+
 #small {
+  background-color: #f8f8f8;
   border-radius: 20px;
   font-size: 13px;
   padding: 8px 5px 8px 20px;
   width: 160px; }
+
 #medium-input {
+  background-color: #f8f8f8;
   border-radius: 20px;
   font-size: 14px;
   padding: 8px 5px 10px 20px;
   width: 220px; }
+
 #large {
+  background-color: #f8f8f8;
   border-radius: 25px;
   font-size: 22px;
   padding: 10px 5px 10px 22px;
   width: 303px; }
+
 .input {
-  background-color: aqua;
+  background-color: #f1f2f2;
+  color: #f8f8f8;
   padding: 6px 0 0 0; }
+
 hr {
   border: 1px solid #019c97;
   margin: 1rem 1rem 0 1rem; }
+
 .main__navbar-serch {
-  background-color: red;
+  background-color: #ffffff;
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap; }
   .main__navbar-serch .main__search {
-    background-color: yellow;
+    background-color: #ffffff;
     flex-grow: 1;
-    padding: 26px 0 0 20px; }
+    padding: 30px 0 0 20px; }
     .main__navbar-serch .main__search label {
+      font-size: 26px;
       padding: 0 1rem 0 0; }
+    .main__navbar-serch .main__search #element {
+      font-size: 12px; }
   .main__navbar-serch .main__login {
-    background-color: blue; }
+    background-color: #ffffff; }
     .main__navbar-serch .main__login .login {
-      background: pink;
+      background: #ffffff;
       display: flex;
       margin: auto;
       padding: 1rem 1rem 1rem 0; }
@@ -123,45 +265,53 @@ hr {
         padding: 20px 30px 0 0; }
       .main__navbar-serch .main__login .login .login3 {
         padding: 20px 0 0 0; }
+
 .main {
-  background-color: green;
+  background-color: #f1f2f2;
   display: flex; }
   .main .main__button {
-    background-color: purple;
+    background-color: #f1f2f2;
     margin: 0 0 0 22rem;
     padding: 1rem 0 2rem 1rem; }
   .main .main__button-2 {
-    background-color: red;
+    background-color: #f1f2f2;
     padding: 1.5rem 0 2rem 1rem; }
   .main .main__button-3 {
-    background-color: blue;
+    background-color: #f1f2f2;
     padding: 1.5rem 0 2rem 0; }
     .main .main__button-3 .button-icon {
+      background-color: #1f1f1f;
+      color: #ffffff;
       margin: 16px 10px 10px 10px;
       padding: 8px 6px 8px 6px; }
   .main .main__button-4 {
-    background-color: pink;
+    background-color: #f1f2f2;
     padding: 1.5rem 0 2rem 1rem; }
   .main .main__button-5 {
-    background-color: aqua;
+    background-color: #f1f2f2;
     padding: 1.5rem 1rem 2rem 1rem; }
     .main .main__button-5 label {
       font-size: 11px; }
+
 .inputs {
-  background-color: orange;
+  background-color: #f1f2f2;
   display: flex;
   margin: auto; }
   .inputs .main__input {
-    background-color: red;
+    background-color: #f1f2f2;
     margin: 0 0 0 22rem; }
     .inputs .main__input .label1 {
+      font-size: 15px;
       padding: 1rem 0 0 0; }
     .inputs .main__input .label2 {
+      font-size: 10px;
       padding: 1rem 0 0 0; }
   .inputs .main__input2 {
-    background-color: purple;
+    background-color: #f1f2f2;
     padding: 4rem 0 1rem 0; }
     .inputs .main__input2 #medium-input {
+      background-color: #ffffff;
+      color: #a9a9a9;
       margin: 0 2rem 0 0; }
     .inputs .main__input2 .input2 {
       padding: 1rem 0 0 3rem; }
@@ -171,64 +321,78 @@ hr {
         border-radius: 15px;
         font-size: 14px;
         padding: 10px 425px 70px 30px; }
+
 .dropdown {
-  background-color: green;
+  background-color: #f1f2f2;
   display: flex;
   margin: auto; }
   .dropdown .main__dropdown {
     margin: 0 0 0 22rem; }
     .dropdown .main__dropdown #tiny-size {
-      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+      color: #cdcdcd;
+      border: 1px solid #f8f8f8;
       border-radius: 0 8px 8px 0;
       margin: 0 0 0 -30px;
       padding: 4px 4px 3px 4px; }
     .dropdown .main__dropdown #small-size {
-      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+      color: #cdcdcd;
+      border: 1px solid #f8f8f8;
       border-radius: 0 8px 8px 0;
       margin: 0 0 0 -38px;
       padding: 10px 7px 8px 6px; }
     .dropdown .main__dropdown #medium-size {
-      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+      color: #cdcdcd;
+      border: 1px solid #f8f8f8;
       border-radius: 0 8px 8px 0;
       margin: 0 0 0 -46px;
       padding: 11px 8px 10px 8px; }
     .dropdown .main__dropdown #large-size {
-      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+      color: #cdcdcd;
+      border: 1px solid #f8f8f8;
       border-radius: 0 8px 8px 0;
       margin: 0 26px 0 -60px;
       padding: 18px 10px 12px 8px; }
   .dropdown .main__input2 {
-    background-color: pink;
+    background-color: #f1f2f2;
     padding: 1rem 0 1rem 0; }
     .dropdown .main__input2 #medium-input {
       margin: 1rem 1rem 0 0; }
     .dropdown .main__input2 .input2 {
-      background-color: blue;
+      background-color: #f1f2f2;
       padding: 1rem 0 0 20rem; }
+
 .label-button {
-  background-color: orange;
+  background-color: #f1f2f2;
   margin: 0; }
   .label-button .main__label-button {
     padding: 0 0 0 22rem; }
     .label-button .main__label-button .input {
-      background-color: red;
+      background-color: #f1f2f2;
       padding: 6px 0 12px 0; }
       .label-button .main__label-button .input #small-size {
         font-size: 10px;
         margin: 10px 26px 0 -98px;
         padding: 12px 18px 12px 18px; }
     .label-button .main__label-button .input-search {
-      background-color: blue; }
+      background-color: #f1f2f2; }
       .label-button .main__label-button .input-search .input {
-        background-color: pink; }
+        background-color: #f1f2f2; }
         .label-button .main__label-button .input-search .input #medium-size {
+          background-color: #fafafa;
+          color: #cdcdcd;
           margin: 0 20px 0 -38px;
-          padding: 13px 10px 12px 10px; }
+          font-size: 14px;
+          padding: 4px 4px 4px 4px; }
         .label-button .main__label-button .input-search .input #small-size {
           border: 1px solid #ccc;
           border-radius: 0 8px 8px 0;
           margin: 0 0 0 -38px;
           padding: 11px 7px 10px 6px; }
+
 .main-card {
   background-color: aqua;
   display: flex;
@@ -261,7 +425,7 @@ hr {
       margin: 0 10px 10px 10px; }
     .main-card .carta .nombre {
       background-color: pink;
-      margin: -26px 0 0 0; }
+      margin: -20px 0 0 0; }
     .main-card .carta h6 {
       margin: -22px 0 0 0; }
     .main-card .carta .nombre2 {
@@ -273,6 +437,7 @@ hr {
     margin: 22px 0 0 88px; }
   .main-card #small-size {
     margin: 0 0 0 1px; }
+
 .titulo {
   background: yellow;
   padding: 3rem 2rem 0 0; }
@@ -402,6 +567,7 @@ hr {
         .titulo .cabecera .button3 .line2 .button-icon {
           margin: 5px 0 0 6px;
           padding: 8px 0 6px 0; }
+
 .main-update {
   background-color: purple;
   display: flex;
@@ -479,27 +645,199 @@ hr {
           margin: 10px 0 0 0; }
         .main-update .main__update .last-day3 .last-day-3 #title1 {
           margin: 10px 0 0 50px; }
+
 .main__column {
   background-color: orange;
   margin: 0;
-  width: 964px; }
+  width: 1000px; }
   .main__column .column {
-    background-color: pink; }
+    background-color: pink;
+    margin: 0 0 0 1px; }
     .main__column .column label {
       font-size: 12px;
-      padding: 0 32px 0 1px; }
+      padding: 0 16px 0 17px; }
     .main__column .column .button-icon {
       margin: 0 5px 0 0; }
     .main__column .column .column1 {
       background-color: red;
-      border-radius: 28px; }
+      border-radius: 28px;
+      padding: 0 0 0 5px;
+      margin: 0 0 0 14px; }
       .main__column .column .column1 label {
-        font-size: 15px;
-        padding: 0 2rem 0 0; }
+        font-size: 13px;
+        padding: 0 32px 0 0; }
     .main__column .column .column2 {
-      background-color: blue; }
+      background-color: blue;
+      padding: 0 0 0 5px;
+      margin: 0 0 0 14px; }
       .main__column .column .column2 label {
-        font-size: 15px;
+        font-size: 13px;
         padding: 0 2rem 0 0; }
+
+.main__labels {
+  background-color: orange;
+  margin: 0; }
+  .main__labels .main__lab {
+    background-color: aqua;
+    display: flex;
+    margin: 4rem 0 0 0; }
+    .main__labels .main__lab .main__label2 {
+      background-color: orange;
+      margin: 0 2rem 0 1rem; }
+      .main__labels .main__lab .main__label2 .fa {
+        font-size: 18px; }
+      .main__labels .main__lab .main__label2 label {
+        font-size: 12px; }
+      .main__labels .main__lab .main__label2 hr {
+        border: 2px solid #019c97;
+        margin: 5px 0 0 0; }
+
+.main-card2 {
+  background-color: aqua;
+  display: flex;
+  margin: auto; }
+  .main-card2 .carta2 {
+    background-color: green;
+    padding: 0 2rem 0 2rem; }
+    .main-card2 .carta2 .lyuot2 {
+      background-color: blue; }
+      .main-card2 .carta2 .lyuot2 .nombre {
+        text-align: left; }
+        .main-card2 .carta2 .lyuot2 .nombre #tiny {
+          padding: 8px 0 8px 0; }
+        .main-card2 .carta2 .lyuot2 .nombre .button-icon {
+          margin: 10px 0 86px 2px; }
+    .main-card2 .carta2 .main-card__card2 {
+      background-color: red; }
+    .main-card2 .carta2 .imagen2 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+    .main-card2 .carta2 .nombre {
+      background-color: pink;
+      margin: -20px 0 0 0; }
+  .main-card2 #small-size {
+    margin: 0 0 0 1px; }
+  .main-card2 .carta3 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta3 .lyuot3 {
+      background-color: blue; }
+      .main-card2 .carta3 .lyuot3 .nombre {
+        text-align: left; }
+    .main-card2 .carta3 .main-card__card3 {
+      background-color: red; }
+    .main-card2 .carta3 .imagen3 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+    .main-card2 .carta3 .nombre {
+      background-color: pink;
+      margin: -20px 0 0 0;
+      padding: 0 65px 182px 0; }
+  .main-card2 .carta4 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta4 .lyuot4 {
+      background-color: blue; }
+      .main-card2 .carta4 .lyuot4 .nombre {
+        text-align: left; }
+    .main-card2 .carta4 .main-card__card4 {
+      background-color: red;
+      margin: 23px 0 0 0; }
+    .main-card2 .carta4 .imagen4 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+      .main-card2 .carta4 .imagen4 .nombre {
+        background-color: pink;
+        font-size: 26px;
+        margin: 14px 0 16px 0;
+        padding: 10px 10px 28px 10px; }
+  .main-card2 .carta5 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta5 .lyuot5 {
+      background-color: blue; }
+      .main-card2 .carta5 .lyuot5 .nombre {
+        text-align: left; }
+    .main-card2 .carta5 .main-card__card5 {
+      background-color: red;
+      margin: 23px 0 0 0; }
+    .main-card2 .carta5 .imagen5 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+      .main-card2 .carta5 .imagen5 .nombre2 {
+        background-color: pink;
+        font-size: 26px;
+        margin: 14px 0 16px 0;
+        padding: 10px 10px 28px 10px; }
+  .main-card2 .carta6 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta6 .lyuot6 {
+      background-color: blue; }
+      .main-card2 .carta6 .lyuot6 .clock {
+        background-color: white;
+        padding: 0 0 0 11px; }
+    .main-card2 .carta6 .main-card__card6 {
+      background-color: red; }
+    .main-card2 .carta6 .imagen6 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+    .main-card2 .carta6 .nombre {
+      background-color: pink;
+      margin: -20px 0 0 0;
+      padding: 0 65px 92px 0; }
+  .main-card2 .carta7 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta7 .lyuot7 {
+      background-color: blue; }
+      .main-card2 .carta7 .lyuot7 .nombre {
+        text-align: left; }
+    .main-card2 .carta7 .main-card__card7 {
+      background-color: red;
+      margin: 21px 0 0 0; }
+    .main-card2 .carta7 .imagen7 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+      .main-card2 .carta7 .imagen7 .nombre2 {
+        background-color: pink;
+        font-size: 28px;
+        margin: 14px 0 15px 0;
+        padding: 10px 10px 26px 10px; }
+      .main-card2 .carta7 .imagen7 hr {
+        border: 1px solid #019c97;
+        margin: -15px 0 0 0; }
+  .main-card2 .carta8 {
+    background-color: green;
+    padding: 0 2rem 0 1rem; }
+    .main-card2 .carta8 .lyuot8 {
+      background-color: blue; }
+      .main-card2 .carta8 .lyuot8 .nombre {
+        text-align: left; }
+    .main-card2 .carta8 .main-card__card8 {
+      background-color: red;
+      margin: 21px 0 0 0; }
+    .main-card2 .carta8 .imagen8 {
+      background-color: orange;
+      border-radius: 0 0 5px 5px;
+      margin: 0 10px 10px 10px; }
+      .main-card2 .carta8 .imagen8 .nombre2 {
+        background-color: pink;
+        font-size: 26px;
+        margin: 14px 0 15px 0;
+        padding: 10px 10px 2px 10px; }
+        .main-card2 .carta8 .imagen8 .nombre2 p {
+          font-size: 8px;
+          margin-top: -4px;
+          text-align: center; }
+      .main-card2 .carta8 .imagen8 hr {
+        border: 1px solid #019c97;
+        margin: -15px 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */

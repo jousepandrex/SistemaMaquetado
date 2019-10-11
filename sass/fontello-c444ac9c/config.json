@@ -101,6 +101,12 @@
       "css": "trash-empty",
       "code": 59402,
       "src": "fontawesome"
+    },
+    {
+      "uid": "xzlln8s96kcutcubtwavdjt80tmhkbkq",
+      "css": "target",
+      "code": 59394,
+      "src": "typicons"
     }
   ]
 }

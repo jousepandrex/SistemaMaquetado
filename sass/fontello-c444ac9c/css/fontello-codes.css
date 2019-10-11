@@ -1,6 +1,7 @@
 
 .icon-heart:before { content: '\e800'; } /* '' */
 .icon-attention:before { content: '\e801'; } /* '' */
+.icon-target:before { content: '\e802'; } /* '' */
 .icon-camera-outline:before { content: '\e803'; } /* '' */
 .icon-home:before { content: '\e804'; } /* '' */
 .icon-truck:before { content: '\e805'; } /* '' */
