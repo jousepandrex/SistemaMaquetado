@@ -237,7 +237,7 @@ input {
   padding: 6px 0 0 0; }
 
 hr {
-  border: 1px solid #019c97;
+  border: 1px solid #f1f2f2;
   margin: 1rem 1rem 0 1rem; }
 
 .main__navbar-serch {
@@ -394,164 +394,185 @@ hr {
           padding: 11px 7px 10px 6px; }
 
 .main-card {
-  background-color: aqua;
+  background-color: #f1f2f2;
   display: flex;
   margin: auto; }
   .main-card .carta {
-    background-color: green;
-    border-right: 1px solid pink;
+    background-color: #f1f2f2;
+    border-right: 1px solid #dcdcdc;
     margin: 0 0 0 22rem;
-    padding: 0 4rem 0 0; }
+    padding: 0 4rem 4rem 0; }
     .main-card .carta .lyuot {
-      background-color: blue;
+      background-color: #f1f2f2;
       margin: 3rem 0 0 0;
       padding: 0 0 0 0; }
-      .main-card .carta .lyuot .nombre {
-        text-align: left; }
-        .main-card .carta .lyuot .nombre #tiny {
-          padding: 8px 0 8px 0; }
-        .main-card .carta .lyuot .nombre .button-icon {
-          margin: 0 0 0 2px; }
     .main-card .carta .main-card__card {
-      background-color: red;
+      background-color: #ffffff;
       border-radius: 5px;
       text-align: center; }
       .main-card .carta .main-card__card .trash {
-        font-size: 12px;
+        font-size: 14px;
         padding: 0 10px 0 150px; }
+      .main-card .carta .main-card__card .nombre {
+        text-align: center; }
+      .main-card .carta .main-card__card .nombre__2 {
+        text-align: left; }
+      .main-card .carta .main-card__card .input {
+        background-color: #ffffff;
+        padding: 1rem 0 2rem 0; }
+        .main-card .carta .main-card__card .input #tiny {
+          padding: 8px 0 8px 0; }
+        .main-card .carta .main-card__card .input .button-icon {
+          margin: 0 0 0 2px; }
     .main-card .carta .imagen {
-      background-color: orange;
+      background-color: #ffffff;
       border-radius: 0 0 5px 5px;
       margin: 0 10px 10px 10px; }
     .main-card .carta .nombre {
-      background-color: pink;
+      background-color: #ffffff;
       margin: -20px 0 0 0; }
     .main-card .carta h6 {
       margin: -22px 0 0 0; }
     .main-card .carta .nombre2 {
-      padding: 1rem 0 0 0;
+      padding: 1rem 0 2rem 0;
       text-align: left; }
   .main-card .element {
-    background-color: red;
+    background-color: #f1f2f2;
     color: blue;
-    margin: 22px 0 0 88px; }
-  .main-card #small-size {
-    margin: 0 0 0 1px; }
+    margin: 30px 0 0 88px; }
+  .main-card #small-size__1 {
+    background-color: #f1f2f2;
+    font-size: 10px;
+    margin: 0 0 0 1px;
+    padding: 10px 18px 10px 18px; }
+  .main-card #small-size__2 {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-size: 10px;
+    margin: 0 0 0 1px;
+    padding: 10px 18px 10px 18px; }
 
 .titulo {
-  background: yellow;
+  background-color: #f1f2f2;
   padding: 3rem 2rem 0 0; }
   .titulo .main__titulo {
-    background-color: pink;
+    background-color: #f1f2f2;
     margin: 0 0 0 15px; }
   .titulo .cabecera {
-    background-color: blue;
+    background-color: #ffffff;
     border-radius: 8px;
     display: flex;
     padding: 5px 0 5px 0;
-    margin: 1rem 0 0 1rem; }
+    margin: 1rem 0 0 1rem;
+    width: 840px; }
     .titulo .cabecera .imagen {
-      background-color: red;
+      background-color: #ffffff;
       padding: 5px 5px 5px 10px; }
     .titulo .cabecera .datos {
-      background-color: orange;
+      background-color: #ffffff;
       padding: 10px 0 0 0; }
       .titulo .cabecera .datos #label-1 {
         font-size: 14px; }
       .titulo .cabecera .datos #label-2 {
         font-size: 10px; }
     .titulo .cabecera .abajo {
-      background-color: pink;
-      margin: 0 0 0 113px;
-      padding: 5px 0 0 0; }
+      background-color: #ffffff;
+      margin: 0 0 0 134px;
+      padding: 12px 0 0 0; }
       .titulo .cabecera .abajo #large {
+        background-color: #f8f8f8;
         font-size: 12px;
         width: 176px; }
       .titulo .cabecera .abajo #large-size {
+        background-color: #f8f8f8;
+        color: #cdcdcd;
         border: 1px solid #ccc;
         border-radius: 0 18px 18px 0;
         font-size: 12px;
         margin: 4px 6px 0 -58px;
-        padding: 10px 20px 10px 16px; }
+        padding: 8px 20px 8px 16px; }
     .titulo .cabecera .boton {
-      background-color: aqua;
-      padding: 12px 0 0 0; }
+      background-color: #ffffff;
+      padding: 8px 0 0 6px; }
     .titulo .cabecera .last-day {
-      background-color: pink;
+      background-color: #ffffff;
       margin: 0 0 0 5px;
       padding: 18px 0 0 3px; }
     .titulo .cabecera .button {
-      background-color: orange;
-      margin: 0 0 0 4px;
-      padding: 10px 0 0 0; }
+      background-color: #ffffff;
+      padding: 8px 0 0 0; }
       .titulo .cabecera .button .line1 {
         border-right: 1px solid #01a6a1;
-        height: 2rem; }
+        height: 3rem; }
         .titulo .cabecera .button .line1 .button-icon {
-          margin: 0 2px 0 4px; }
+          margin: 11px 4px 0 0;
+          padding: 6px 6px 6px 6px; }
       .titulo .cabecera .button .line2 {
         border-left: 1px solid #01a6a1;
-        height: 2rem; }
+        height: 3rem; }
         .titulo .cabecera .button .line2 .button-icon {
-          margin: 0 0 0 6px;
-          padding: 8px 0 5px 0; }
+          margin: 8px 0 0 6px;
+          padding: 6px 0 5px 0; }
     .titulo .cabecera .abajo2 {
-      background-color: pink;
-      margin: 0 0 0 40px; }
+      background-color: #ffffff;
+      margin: 0 0 0 42px;
+      padding: 5px 0 0 0; }
       .titulo .cabecera .abajo2 #large {
         font-size: 12px;
         padding: 16px 10px 14px 30px;
         margin: 5px 0 0 0;
         width: 200px; }
       .titulo .cabecera .abajo2 #large-size {
+        background-color: #f8f8f8;
+        color: #cdcdcd;
         border: 1px solid #ccc;
         border-radius: 0 18px 18px 0;
         font-size: 12px;
-        margin: 0 6px 0 -58px;
-        padding: 16px 18px 14px 16px; }
+        margin: 0 6px 0 -52px;
+        padding: 14px 14px 12px 14px; }
     .titulo .cabecera .boton2 {
-      background-color: aqua;
-      padding: 0 0 0 8px; }
+      background-color: #ffffff;
+      padding: 4px 0 0 12px; }
     .titulo .cabecera .last-day2 {
-      background-color: pink;
-      margin: 0 0 0 5px;
-      padding: 18px 0 0 3px; }
+      background-color: #ffffff;
+      margin: 0 10px 0 10px;
+      padding: 16px 0 0 3px; }
     .titulo .cabecera .button2 {
-      background-color: orange;
-      margin: 0 0 0 4px;
-      padding: 12px 0 0 0; }
+      background-color: #ffffff;
+      padding: 6px 0 0 0; }
       .titulo .cabecera .button2 .icon-heart {
         font-size: 17px; }
       .titulo .cabecera .button2 .line1 {
         border-right: 1px solid #01a6a1;
-        height: 2rem; }
+        height: 3rem; }
         .titulo .cabecera .button2 .line1 .button-icon {
-          margin: 0 9px 0 0; }
+          margin: 10px 6px 0 0;
+          padding: 6px 6px 6px 6px; }
       .titulo .cabecera .button2 .line2 {
         border-left: 1px solid #01a6a1;
-        height: 2rem; }
+        height: 3rem; }
         .titulo .cabecera .button2 .line2 .button-icon {
-          margin: 0 0 0 6px;
+          margin: 8px 0 0 8px;
           padding: 8px 0 5px 0; }
     .titulo .cabecera .datos3 {
-      background-color: orange;
+      background-color: #ffffff;
       padding: 18px 20px 0 10px; }
       .titulo .cabecera .datos3 #label__1 {
         font-size: 20px; }
       .titulo .cabecera .datos3 #label__2 {
         font-size: 14px; }
     .titulo .cabecera .boton3 {
-      background-color: aqua;
-      margin: 0 0 0 105px;
+      background-color: #ffffff;
+      margin: 0 0 0 80px;
       padding: 5px 0 0 0; }
       .titulo .cabecera .boton3 #large-size {
         margin: 8px 0 0 0; }
     .titulo .cabecera .last-day3 {
-      background-color: pink;
+      background-color: #ffffff;
       margin: 0 0 0 5px;
-      padding: 28px 6px 0 6px; }
+      padding: 28px 10px 0 10px; }
     .titulo .cabecera .button3 {
-      background-color: orange;
+      background-color: #ffffff;
       margin: 0 0 0 4px;
       padding: 15px 0 0 0; }
       .titulo .cabecera .button3 .icon-heart {
@@ -560,114 +581,161 @@ hr {
         border-right: 1px solid #01a6a1;
         height: 3rem; }
         .titulo .cabecera .button3 .line1 .button-icon {
-          margin: 0 6px 0 0; }
+          margin: 0 16px 0 0;
+          padding: 6px 6px 6px 6px; }
       .titulo .cabecera .button3 .line2 {
         border-left: 1px solid #01a6a1;
         height: 3rem; }
         .titulo .cabecera .button3 .line2 .button-icon {
-          margin: 5px 0 0 6px;
+          margin: 5px 0 0 12px;
           padding: 8px 0 6px 0; }
 
 .main-update {
-  background-color: purple;
+  background-color: #f1f2f2;
   display: flex;
-  margin: 3rem 0 0 0; }
+  margin: 3rem 0 3rem 0; }
   .main-update .main__update {
-    background-color: blue;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 10px 0 10px 0;
     margin: 1rem 4rem 0 1rem;
     width: 20rem; }
     .main-update .main__update .update {
-      background-color: aqua;
+      background-color: #ffffff;
       display: flex; }
       .main-update .main__update .update .imagen {
-        background-color: red;
+        background-color: #ffffff;
         padding: 5px 5px 5px 10px; }
       .main-update .main__update .update .datos {
-        background-color: orange;
+        background-color: #ffffff;
         padding: 10px 0 0 0; }
         .main-update .main__update .update .datos #label-1 {
-          font-size: 14px; }
+          font-size: 12px; }
         .main-update .main__update .update .datos #label-2 {
           font-size: 10px; }
       .main-update .main__update .update .button {
-        background-color: orange;
-        margin: 0 0 0 76px;
-        padding: 10px 0 0 0; }
+        background-color: #ffffff;
+        margin: 0 0 0 81px; }
         .main-update .main__update .update .button .line2 {
-          border-left: 1px solid #01a6a1;
-          height: 35px; }
+          border-left: 1px solid #f1f2f2;
+          height: 55px; }
           .main-update .main__update .update .button .line2 .button-icon {
-            margin: 0 0 0 6px;
+            background-color: #ffffff;
+            margin: 10px 0 0 6px;
             padding: 8px 0 5px 0; }
-      .main-update .main__update .update .button2 {
-        background-color: orange;
-        margin: 0 0 0 133px;
-        padding: 10px 0 0 0; }
-        .main-update .main__update .update .button2 .line2 {
-          border-left: 1px solid #01a6a1;
-          height: 35px; }
-          .main-update .main__update .update .button2 .line2 .button-icon {
-            margin: 0 0 0 6px;
-            padding: 8px 0 5px 0; }
-    .main-update .main__update .input #medium-input {
-      margin: 0 0 0 45px; }
-    .main-update .main__update .input #medium-size {
-      border: 1px solid #ccc;
-      border-radius: 0 8px 8px 0;
-      margin: 0 0 0 -42px;
-      padding: 12px 5px 10px 5px; }
+    .main-update .main__update .input {
+      background-color: #ffffff; }
+      .main-update .main__update .input #medium-input {
+        margin: 20px 0 0 45px; }
+      .main-update .main__update .input #medium-size {
+        border: 1px solid #ccc;
+        border-radius: 0 8px 8px 0;
+        margin: 0 0 0 -42px;
+        padding: 12px 5px 10px 5px; }
     .main-update .main__update .button {
-      background-color: red;
-      padding: 5px 0 0 0; }
+      background-color: #ffffff;
+      padding: 10px 0 0 0; }
       .main-update .main__update .button #medium-size {
-        margin: 0 5px 0 46px;
+        margin: 0 5px 10px 46px;
         padding: 14px 66px 14px 66px; }
       .main-update .main__update .button #tiny-size {
         margin: 0 0 0 2px; }
       .main-update .main__update .button .button-icon {
+        background-color: #1f1f1f;
+        color: #ffffff;
         margin: 0 0 0 1px;
         padding: 8px 6px 8px 6px; }
         .main-update .main__update .button .button-icon .icon-heart {
           font-size: 18px; }
     .main-update .main__update .last-day3 {
-      background-color: pink;
+      background-color: #ffffff;
       font-size: 22px;
       margin: 0 0 0 5px;
       padding: 6px 6px 0 6px;
       text-align: center; }
-      .main-update .main__update .last-day3 .last-day-3 {
-        background-color: red;
+  .main-update .main__update2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 160px;
+    margin: 1rem 4rem 0 1rem;
+    padding: 10px 0 10px 0;
+    width: 20rem; }
+    .main-update .main__update2 .update2 {
+      background-color: #ffffff;
+      display: flex; }
+      .main-update .main__update2 .update2 .datos2 {
+        background-color: #ffffff;
+        padding: 10px 0 0 15px; }
+        .main-update .main__update2 .update2 .datos2 #label-1 {
+          font-size: 16px; }
+        .main-update .main__update2 .update2 .datos2 #label-2 {
+          font-size: 14px; }
+      .main-update .main__update2 .update2 .button {
+        background-color: #ffffff;
+        margin: 0 0 0 76px;
+        padding: 10px 0 0 0; }
+        .main-update .main__update2 .update2 .button .line2 {
+          border-left: 1px solid #01a6a1;
+          height: 35px; }
+      .main-update .main__update2 .update2 .button2 {
+        background-color: #ffffff;
+        margin: 0 0 0 158px; }
+        .main-update .main__update2 .update2 .button2 .button-icon {
+          background-color: #ffffff;
+          margin: 22px 0 0 6px;
+          padding: 8px 0 5px 0; }
+    .main-update .main__update2 .input #medium-input {
+      margin: 0 0 0 45px; }
+    .main-update .main__update2 .input #medium-size {
+      border: 1px solid #ccc;
+      border-radius: 0 8px 8px 0;
+      margin: 0 0 0 -42px;
+      padding: 12px 5px 10px 5px; }
+    .main-update .main__update2 .button {
+      background-color: #ffffff;
+      padding: 5px 0 0 0; }
+      .main-update .main__update2 .button #medium-size {
+        margin: 0 5px 0 46px;
+        padding: 14px 66px 14px 66px; }
+      .main-update .main__update2 .button #tiny-size {
+        margin: 0 0 0 16px; }
+    .main-update .main__update2 .last-day3 {
+      background-color: #ffffff;
+      font-size: 22px;
+      padding: 6px 6px 0 6px;
+      text-align: center; }
+      .main-update .main__update2 .last-day3 .last-day-3 {
+        background-color: #ffffff;
         display: flex;
         font-size: 10px; }
-        .main-update .main__update .last-day3 .last-day-3 label {
+        .main-update .main__update2 .last-day3 .last-day-3 label {
           margin: 10px 0 0 0; }
-        .main-update .main__update .last-day3 .last-day-3 #title1 {
+        .main-update .main__update2 .last-day3 .last-day-3 #title1 {
           margin: 10px 0 0 50px; }
 
 .main__column {
-  background-color: orange;
+  background-color: #f1f2f2;
   margin: 0;
-  width: 1000px; }
+  width: 970px; }
   .main__column .column {
-    background-color: pink;
-    margin: 0 0 0 1px; }
+    background-color: #f1f2f2;
+    margin: 10px 0 0 1px; }
     .main__column .column label {
       font-size: 12px;
-      padding: 0 16px 0 17px; }
+      padding: 0 11px 0 18px; }
     .main__column .column .button-icon {
-      margin: 0 5px 0 0; }
+      margin: 0 5px 0 0;
+      padding: 6px 6px 6px 6px; }
     .main__column .column .column1 {
-      background-color: red;
+      background-color: #e6e6e6;
       border-radius: 28px;
       padding: 0 0 0 5px;
-      margin: 0 0 0 14px; }
+      margin: 10px 0 0 14px; }
       .main__column .column .column1 label {
         font-size: 13px;
-        padding: 0 32px 0 0; }
+        padding: 0 2rem 0 0; }
     .main__column .column .column2 {
-      background-color: blue;
+      background-color: #f1f2f2;
       padding: 0 0 0 5px;
       margin: 0 0 0 14px; }
       .main__column .column .column2 label {
@@ -675,32 +743,35 @@ hr {
         padding: 0 2rem 0 0; }
 
 .main__labels {
-  background-color: orange;
+  background-color: #f1f2f2;
   margin: 0; }
   .main__labels .main__lab {
-    background-color: aqua;
+    background-color: #f1f2f2;
     display: flex;
     margin: 4rem 0 0 0; }
     .main__labels .main__lab .main__label2 {
-      background-color: orange;
+      background-color: #f1f2f2;
+      color: #4f4f4f;
       margin: 0 2rem 0 1rem; }
       .main__labels .main__lab .main__label2 .fa {
         font-size: 18px; }
+      .main__labels .main__lab .main__label2 .icon-clock {
+        color: #4f4f4f; }
       .main__labels .main__lab .main__label2 label {
         font-size: 12px; }
       .main__labels .main__lab .main__label2 hr {
-        border: 2px solid #019c97;
-        margin: 5px 0 0 0; }
+        border: 2px solid #4f4f4f;
+        margin: 5px 0 0 8px; }
 
 .main-card2 {
-  background-color: aqua;
+  background-color: #f1f2f2;
   display: flex;
   margin: auto; }
   .main-card2 .carta2 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 2rem; }
     .main-card2 .carta2 .lyuot2 {
-      background-color: blue; }
+      background-color: #ffffff; }
       .main-card2 .carta2 .lyuot2 .nombre {
         text-align: left; }
         .main-card2 .carta2 .lyuot2 .nombre #tiny {
@@ -708,7 +779,7 @@ hr {
         .main-card2 .carta2 .lyuot2 .nombre .button-icon {
           margin: 10px 0 86px 2px; }
     .main-card2 .carta2 .main-card__card2 {
-      background-color: red; }
+      background-color: #ffffff; }
     .main-card2 .carta2 .imagen2 {
       background-color: orange;
       border-radius: 0 0 5px 5px;
@@ -719,7 +790,7 @@ hr {
   .main-card2 #small-size {
     margin: 0 0 0 1px; }
   .main-card2 .carta3 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta3 .lyuot3 {
       background-color: blue; }
@@ -736,7 +807,7 @@ hr {
       margin: -20px 0 0 0;
       padding: 0 65px 182px 0; }
   .main-card2 .carta4 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta4 .lyuot4 {
       background-color: blue; }
@@ -755,7 +826,7 @@ hr {
         margin: 14px 0 16px 0;
         padding: 10px 10px 28px 10px; }
   .main-card2 .carta5 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta5 .lyuot5 {
       background-color: blue; }
@@ -774,7 +845,7 @@ hr {
         margin: 14px 0 16px 0;
         padding: 10px 10px 28px 10px; }
   .main-card2 .carta6 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta6 .lyuot6 {
       background-color: blue; }
@@ -792,7 +863,7 @@ hr {
       margin: -20px 0 0 0;
       padding: 0 65px 92px 0; }
   .main-card2 .carta7 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta7 .lyuot7 {
       background-color: blue; }
@@ -814,7 +885,7 @@ hr {
         border: 1px solid #019c97;
         margin: -15px 0 0 0; }
   .main-card2 .carta8 {
-    background-color: green;
+    background-color: #f1f2f2;
     padding: 0 2rem 0 1rem; }
     .main-card2 .carta8 .lyuot8 {
       background-color: blue; }
