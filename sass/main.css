@@ -745,7 +745,7 @@ hr {
   width: 980px; }
   .main__column .column {
     background-color: #f1f2f2;
-    margin: 1rem 0 0 1rem; }
+    margin: 0 0 0 1rem; }
     .main__column .column label {
       font-size: 12px;
       padding: 0 11px 0 18px; }
@@ -756,7 +756,7 @@ hr {
       background-color: #e6e6e6;
       border-radius: 28px;
       padding: 0 0 0 5px;
-      margin: 10px 0 0 14px; }
+      margin: 0 0 0 14px; }
       .main__column .column .column1 label {
         font-size: 13px;
         padding: 0 2rem 0 0; }
