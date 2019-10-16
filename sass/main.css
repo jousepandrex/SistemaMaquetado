@@ -13,11 +13,13 @@ input {
   width: 400px; }
 
 .button-icon {
+  background-color: #f8f8f8;
+  color: #aaaaaa;
   border: 0;
   border-radius: 20px;
   font-size: 14px;
   margin: 0 0 0 -40px;
-  padding: 7px 8px 3px 8px; }
+  padding: 2px 6px 2px 6px; }
 
 #tiny-size {
   background-color: #1f1f1f;
@@ -238,7 +240,7 @@ input {
 
 hr {
   border: 1px solid #f1f2f2;
-  margin: 10px 0 0 0; }
+  margin: 10px 10px 0 10px; }
 
 .main__navbar-serch {
   background-color: #ffffff;
@@ -469,7 +471,7 @@ hr {
     display: flex;
     padding: 5px 0 5px 0;
     margin: 1rem 0 0 3rem;
-    width: 840px; }
+    width: 860px; }
     .titulo .cabecera .imagen {
       background-color: #ffffff;
       padding: 5px 5px 5px 10px; }
@@ -482,7 +484,7 @@ hr {
         font-size: 10px; }
     .titulo .cabecera .abajo {
       background-color: #ffffff;
-      margin: 0 0 0 100px;
+      margin: 0 0 0 115px;
       padding: 12px 0 0 0; }
       .titulo .cabecera .abajo #large {
         background-color: #f8f8f8;
@@ -501,7 +503,7 @@ hr {
       padding: 8px 0 0 8px; }
     .titulo .cabecera .last-day {
       background-color: #ffffff;
-      margin: 0 0 0 5px;
+      margin: 0 0 0 6px;
       padding: 18px 10px 0 10px; }
     .titulo .cabecera .button {
       background-color: #ffffff;
@@ -512,24 +514,24 @@ hr {
         .titulo .cabecera .button .line1 .button-icon {
           background-color: #1f1f1f;
           color: #ffffff;
-          margin: 11px 10px 0 0;
-          padding: 6px 6px 6px 6px; }
+          margin: 11px 12px 0 0;
+          padding: 8px 8px 8px 8px; }
       .titulo .cabecera .button .line2 {
         border-left: 1px solid #f1f2f2;
         height: 3rem; }
         .titulo .cabecera .button .line2 .button-icon {
           background-color: #ffffff;
-          margin: 8px 0 0 10px;
+          margin: 8px 0 0 8px;
           padding: 6px 0 5px 0; }
     .titulo .cabecera .abajo2 {
       background-color: #ffffff;
-      margin: 0 0 0 22px;
+      margin: 0 0 0 46px;
       padding: 5px 0 0 0; }
       .titulo .cabecera .abajo2 #large {
         font-size: 12px;
         padding: 16px 10px 14px 30px;
         margin: 5px 0 0 0;
-        width: 200px; }
+        width: 190px; }
       .titulo .cabecera .abajo2 #large-size {
         background-color: #f8f8f8;
         color: #cdcdcd;
@@ -540,30 +542,29 @@ hr {
         padding: 14px 14px 12px 14px; }
     .titulo .cabecera .boton2 {
       background-color: #ffffff;
-      padding: 4px 0 0 12px; }
+      padding: 4px 0 0 10px; }
     .titulo .cabecera .last-day2 {
       background-color: #ffffff;
-      margin: 0 10px 0 10px;
+      font-size: 18px;
+      margin: 0 4px 0 10px;
       padding: 16px 8px 0 8px; }
     .titulo .cabecera .button2 {
       background-color: #ffffff;
       padding: 6px 0 0 0; }
-      .titulo .cabecera .button2 .icon-heart {
-        font-size: 17px; }
       .titulo .cabecera .button2 .line1 {
         border-right: 1px solid #f1f2f2;
         height: 3rem; }
         .titulo .cabecera .button2 .line1 .button-icon {
           background-color: #1f1f1f;
           color: #ffffff;
-          margin: 10px 10px 0 0;
-          padding: 6px 6px 6px 6px; }
+          margin: 10px 14px 0 0;
+          padding: 10px 10px 10px 10px; }
       .titulo .cabecera .button2 .line2 {
         border-left: 1px solid #f1f2f2;
         height: 3rem; }
         .titulo .cabecera .button2 .line2 .button-icon {
           background-color: #ffffff;
-          margin: 8px 0 0 10px;
+          margin: 8px 0 0 8px;
           padding: 8px 0 5px 0; }
     .titulo .cabecera .datos3 {
       background-color: #ffffff;
@@ -574,28 +575,29 @@ hr {
         font-size: 14px; }
     .titulo .cabecera .boton3 {
       background-color: #ffffff;
-      margin: 0 0 0 70px;
+      margin: 0 5px 0 74px;
       padding: 5px 0 0 0; }
       .titulo .cabecera .boton3 #large-size {
         margin: 8px 0 0 0; }
     .titulo .cabecera .last-day3 {
       background-color: #ffffff;
-      margin: 0 0 0 8px;
-      padding: 28px 10px 0 10px; }
+      font-size: 20px;
+      margin: 0 0 0 6px;
+      padding: 28px 10px 0 12px; }
     .titulo .cabecera .button3 {
       background-color: #ffffff;
       margin: 0 0 0 4px;
       padding: 15px 0 0 0; }
-      .titulo .cabecera .button3 .icon-heart {
-        font-size: 26px; }
       .titulo .cabecera .button3 .line1 {
         border-right: 1px solid #f1f2f2;
         height: 3rem; }
+        .titulo .cabecera .button3 .line1 .icon-heart {
+          font-size: 16px; }
         .titulo .cabecera .button3 .line1 .button-icon {
           background-color: #1f1f1f;
           color: #ffffff;
-          margin: 0 12px 0 0;
-          padding: 8px 8px 8px 8px; }
+          margin: 0 14px 0 0;
+          padding: 12px 12px 12px 12px; }
       .titulo .cabecera .button3 .line2 {
         border-left: 1px solid #f1f2f2;
         height: 3rem; }
@@ -639,6 +641,9 @@ hr {
             padding: 8px 0 5px 0; }
     .main-update .main__update .input {
       background-color: #ffffff; }
+      .main-update .main__update .input hr {
+        border: 1px solid #f1f2f2;
+        margin: 10px 20px 0 20px; }
       .main-update .main__update .input #medium-input {
         margin: 20px 0 0 45px; }
       .main-update .main__update .input #medium-size {
@@ -663,6 +668,9 @@ hr {
         padding: 8px 6px 8px 6px; }
         .main-update .main__update .button .button-icon .icon-heart {
           font-size: 18px; }
+      .main-update .main__update .button hr {
+        border: 1px solid #f1f2f2;
+        margin: 10px 20px 0 20px; }
     .main-update .main__update .last-day3 {
       background-color: #ffffff;
       font-size: 22px;
@@ -708,13 +716,15 @@ hr {
       margin: 0 0 0 -42px;
       padding: 12px 5px 10px 5px; }
     .main-update .main__update2 .button {
-      background-color: #ffffff;
-      padding: 5px 0 0 0; }
+      background-color: #ffffff; }
       .main-update .main__update2 .button #medium-size {
         margin: 0 5px 0 46px;
         padding: 14px 66px 14px 66px; }
       .main-update .main__update2 .button #tiny-size {
-        margin: 0 0 0 16px; }
+        margin: 0 0 0 20px; }
+      .main-update .main__update2 .button hr {
+        border: 1px solid #f1f2f2;
+        margin: 20px 20px 0 20px; }
     .main-update .main__update2 .last-day3 {
       background-color: #ffffff;
       font-size: 22px;
