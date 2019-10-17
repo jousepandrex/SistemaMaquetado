@@ -244,29 +244,35 @@ hr {
 
 .main__navbar-serch {
   background-color: #ffffff;
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap; }
+  display: flex; }
   .main__navbar-serch .main__search {
     background-color: #ffffff;
     flex-grow: 1;
-    padding: 30px 0 0 20px; }
+    padding: 25px 0 0 20px; }
     .main__navbar-serch .main__search label {
+      color: #5d5d5d;
       font-size: 26px;
       padding: 0 1rem 0 0; }
+    .main__navbar-serch .main__search #monad {
+      color: #1f1f1f; }
     .main__navbar-serch .main__search #element {
+      color: #4f4f4f;
       font-size: 12px; }
-  .main__navbar-serch .main__login {
-    background-color: #ffffff; }
-    .main__navbar-serch .main__login .login {
-      background: #ffffff;
-      display: flex;
-      margin: auto;
-      padding: 1rem 1rem 1rem 0; }
-      .main__navbar-serch .main__login .login .login1 {
-        padding: 20px 30px 0 0; }
-      .main__navbar-serch .main__login .login .login3 {
-        padding: 20px 0 0 0; }
+    .main__navbar-serch .main__search #menu {
+      font-size: 24px;
+      padding: 0 24px 0 0; }
+    .main__navbar-serch .main__search #clock {
+      color: #4f4f4f;
+      font-size: 20px; }
+  .main__navbar-serch .login {
+    background: #ffffff;
+    display: flex;
+    margin: auto;
+    padding: 1rem 1rem 1rem 0; }
+    .main__navbar-serch .login .login1 {
+      padding: 20px 30px 0 0; }
+    .main__navbar-serch .login .login3 {
+      padding: 20px 0 0 0; }
 
 .main {
   background-color: #f1f2f2;
@@ -332,40 +338,45 @@ hr {
     margin: 0 0 0 20rem; }
     .dropdown .main__dropdown #tiny-size {
       background-color: #f8f8f8;
-      color: #cdcdcd;
-      border: 1px solid #f8f8f8;
+      border-left: 1px solid #ccc;
       border-radius: 0 8px 8px 0;
+      color: #cdcdcd;
       margin: 0 0 0 -30px;
       padding: 4px 4px 3px 4px; }
     .dropdown .main__dropdown #small-size {
       background-color: #f8f8f8;
-      color: #cdcdcd;
-      border: 1px solid #f8f8f8;
+      border-left: 1px solid #ccc;
       border-radius: 0 8px 8px 0;
+      color: #cdcdcd;
       margin: 0 0 0 -38px;
       padding: 10px 7px 8px 6px; }
     .dropdown .main__dropdown #medium-size {
       background-color: #f8f8f8;
-      color: #cdcdcd;
-      border: 1px solid #f8f8f8;
+      border-left: 1px solid #ccc;
       border-radius: 0 8px 8px 0;
+      color: #cdcdcd;
       margin: 0 0 0 -46px;
-      padding: 11px 8px 10px 8px; }
+      padding: 11px 8px 10px 12px; }
     .dropdown .main__dropdown #large-size {
       background-color: #f8f8f8;
-      color: #cdcdcd;
-      border: 1px solid #f8f8f8;
+      border-left: 1px solid #ccc;
       border-radius: 0 8px 8px 0;
-      margin: 0 26px 0 -60px;
-      padding: 18px 10px 12px 8px; }
+      color: #cdcdcd;
+      margin: 0 26px 0 -50px;
+      padding: 18px 6px 12px 12px; }
   .dropdown .main__input2 {
     background-color: #f1f2f2;
     padding: 1rem 0 1rem 0; }
-    .dropdown .main__input2 #medium-input {
-      margin: 1rem 1rem 0 0; }
+    .dropdown .main__input2 #medium-size {
+      background-color: #f8f8f8;
+      border-left: 1px solid #ccc;
+      border-radius: 0 8px 8px 0;
+      color: #cdcdcd;
+      margin: 0 25px 0 -46px;
+      padding: 11px 8px 10px 12px; }
     .dropdown .main__input2 .input2 {
       background-color: #f1f2f2;
-      padding: 1rem 0 0 20rem; }
+      padding: 2rem 0 0 24rem; }
 
 .label-button {
   background-color: #f1f2f2;
@@ -392,7 +403,7 @@ hr {
         .label-button .main__label-button .input-search .input #small-size {
           background-color: #fafafa;
           color: #cdcdcd;
-          border: 1px solid #ccc;
+          border-left: 1px solid #ccc;
           border-radius: 0 8px 8px 0;
           margin: 0 0 0 -38px;
           padding: 11px 7px 10px 6px; }
@@ -404,12 +415,11 @@ hr {
   .main-card .carta {
     background-color: #f1f2f2;
     border-right: 1px solid #dcdcdc;
-    margin: 0 0 0 20rem;
-    padding: 0 4rem 4rem 0; }
+    margin: 4rem 0 6rem 20rem;
+    padding: 0 4rem 0 0; }
     .main-card .carta .lyuot {
       background-color: #f1f2f2;
-      margin: 3rem 0 0 0;
-      padding: 0 0 0 0; }
+      margin: 2rem 0 0 0; }
     .main-card .carta .main-card__card {
       background-color: #ffffff;
       border-radius: 5px;
@@ -461,20 +471,50 @@ hr {
 
 .titulo {
   background-color: #f1f2f2;
-  padding: 3rem 2rem 0 0; }
+  padding: 6rem 2rem 0 0; }
   .titulo .main__titulo {
     background-color: #f1f2f2;
     margin: 0 0 0 2rem; }
+  .titulo .linea1 {
+    border-top: 1px solid #c5c5c5;
+    float: left;
+    margin: 0 0 0 30px;
+    padding: 0 0 30px 0;
+    position: relative;
+    top: 12px;
+    width: 400px; }
+  .titulo .linea2 {
+    border-top: 1px solid #c5c5c5;
+    float: left;
+    padding: 0 0 30px 0;
+    position: relative;
+    top: 12px;
+    width: 520px; }
+  .titulo .linea3 {
+    border-top: 1px solid #c5c5c5;
+    float: left;
+    margin: 0 30px 5px 30px;
+    padding: 0 0 80px 0;
+    position: relative;
+    top: 24px;
+    width: 388px; }
+  .titulo .leyenda {
+    color: #c5c5c5;
+    font-size: 26px;
+    float: left; }
   .titulo .cabecera {
     background-color: #ffffff;
     border-radius: 8px;
     display: flex;
     padding: 5px 0 5px 0;
     margin: 1rem 0 0 3rem;
-    width: 860px; }
+    width: 890px; }
     .titulo .cabecera .imagen {
       background-color: #ffffff;
-      padding: 5px 5px 5px 10px; }
+      padding: 10px 12px 10px 22px; }
+    .titulo .cabecera .imagen2 {
+      background-color: #ffffff;
+      padding: 10px 12px 10px 26px; }
     .titulo .cabecera .datos {
       background-color: #ffffff;
       padding: 10px 0 0 0; }
@@ -493,11 +533,11 @@ hr {
       .titulo .cabecera .abajo #large-size {
         background-color: #f8f8f8;
         color: #cdcdcd;
-        border: 1px solid #cdcdcd;
+        border-left: 1px solid #ccc;
         border-radius: 0 18px 18px 0;
         font-size: 12px;
-        margin: 4px 6px 0 -58px;
-        padding: 8px 20px 8px 16px; }
+        margin: 4px 6px 0 -39px;
+        padding: 8px 8px 8px 8px; }
     .titulo .cabecera .boton {
       background-color: #ffffff;
       padding: 8px 0 0 8px; }
@@ -529,17 +569,17 @@ hr {
       padding: 5px 0 0 0; }
       .titulo .cabecera .abajo2 #large {
         font-size: 12px;
-        padding: 16px 10px 14px 30px;
+        padding: 16px 10px 14px 26px;
         margin: 5px 0 0 0;
         width: 190px; }
       .titulo .cabecera .abajo2 #large-size {
         background-color: #f8f8f8;
         color: #cdcdcd;
-        border: 1px solid #ccc;
+        border-left: 1px solid #ccc;
         border-radius: 0 18px 18px 0;
-        font-size: 12px;
-        margin: 0 6px 0 -52px;
-        padding: 14px 14px 12px 14px; }
+        font-size: 14px;
+        margin: 0 6px 0 -48px;
+        padding: 12px 12px 12px 10px; }
     .titulo .cabecera .boton2 {
       background-color: #ffffff;
       padding: 4px 0 0 10px; }
@@ -568,14 +608,14 @@ hr {
           padding: 8px 0 5px 0; }
     .titulo .cabecera .datos3 {
       background-color: #ffffff;
-      padding: 18px 20px 0 10px; }
+      padding: 18px 0 0 0; }
       .titulo .cabecera .datos3 #label__1 {
         font-size: 20px; }
       .titulo .cabecera .datos3 #label__2 {
         font-size: 14px; }
     .titulo .cabecera .boton3 {
       background-color: #ffffff;
-      margin: 0 5px 0 74px;
+      margin: 0 5px 0 110px;
       padding: 5px 0 0 0; }
       .titulo .cabecera .boton3 #large-size {
         margin: 8px 0 0 0; }
@@ -613,15 +653,15 @@ hr {
   .main-update .main__update {
     background-color: #ffffff;
     border-radius: 8px;
-    padding: 10px 0 10px 0;
     margin: 1rem 4rem 0 3rem;
+    padding: 10px 6px 10px 12px;
     width: 20rem; }
     .main-update .main__update .update {
       background-color: #ffffff;
       display: flex; }
       .main-update .main__update .update .imagen {
         background-color: #ffffff;
-        padding: 5px 5px 5px 10px; }
+        padding: 10px 10px 0 10px; }
       .main-update .main__update .update .datos {
         background-color: #ffffff;
         padding: 10px 0 0 0; }
@@ -631,10 +671,10 @@ hr {
           font-size: 10px; }
       .main-update .main__update .update .button {
         background-color: #ffffff;
-        margin: 0 0 0 81px; }
+        margin: 0 0 0 60px; }
         .main-update .main__update .update .button .line2 {
           border-left: 1px solid #f1f2f2;
-          height: 55px; }
+          height: 60px; }
           .main-update .main__update .update .button .line2 .button-icon {
             background-color: #ffffff;
             margin: 10px 0 0 6px;
@@ -649,10 +689,10 @@ hr {
       .main-update .main__update .input #medium-size {
         background-color: #f8f8f8;
         color: #cdcdcd;
-        border: 1px solid #ccc;
+        border-left: 1px solid #ccc;
         border-radius: 0 8px 8px 0;
         margin: 0 0 0 -42px;
-        padding: 12px 5px 10px 5px; }
+        padding: 12px 5px 10px 10px; }
     .main-update .main__update .button {
       background-color: #ffffff;
       padding: 10px 0 0 0; }
@@ -673,16 +713,17 @@ hr {
         margin: 10px 20px 0 20px; }
     .main-update .main__update .last-day3 {
       background-color: #ffffff;
-      font-size: 22px;
+      color: #9c9c9c;
+      font-size: 20px;
       margin: 0 0 0 5px;
-      padding: 6px 6px 0 6px;
+      padding: 6px 6px 6px 6px;
       text-align: center; }
   .main-update .main__update2 {
     background-color: #ffffff;
     border-radius: 8px;
     height: 160px;
     margin: 1rem 4rem 0 1rem;
-    padding: 10px 0 10px 0;
+    padding: 10px 6px 10px 12px;
     width: 20rem; }
     .main-update .main__update2 .update2 {
       background-color: #ffffff;
@@ -703,7 +744,7 @@ hr {
           height: 35px; }
       .main-update .main__update2 .update2 .button2 {
         background-color: #ffffff;
-        margin: 0 0 0 158px; }
+        margin: 0 0 0 140px; }
         .main-update .main__update2 .update2 .button2 .button-icon {
           background-color: #ffffff;
           margin: 22px 0 0 6px;
@@ -728,7 +769,7 @@ hr {
     .main-update .main__update2 .last-day3 {
       background-color: #ffffff;
       font-size: 22px;
-      padding: 6px 6px 0 6px;
+      padding: 6px 0 0 0;
       text-align: center; }
       .main-update .main__update2 .last-day3 .last-day-3 {
         background-color: #ffffff;

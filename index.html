@@ -13,7 +13,7 @@
     <header>
         <div class="main__navbar-serch">
           <div class="main__search">
-            <label> <b>monad</b>orchestra</label>
+            <label> <b id="monad">monad</b>orchestra</label>
             <input type="text">
             <button class="button-icon"><i class="fa fa-serch icon-search"></i></button>
           </div>
@@ -164,8 +164,12 @@
           </div>
         </div>
         <div class="main__input2">
-          <input id="medium-input" type="text" placeholder="Medium...">
-          <input id="medium-input" type="text" placeholder="Medium...">
+          <div class="input">
+            <input id="medium-input" type="text" placeholder="Hover">
+            <button class="button-icon" id="medium-size"> <i class="fa fa-angle icon-angle-down"></i> </button>
+            <input id="medium-input" type="text" placeholder="Pressed">
+            <button class="button-icon" id="medium-size"> <i class="fa fa-angle icon-angle-down"></i> </button>
+          </div>
           <div class="input2">
             <input id="medium-input" type="date">
           </div>
@@ -279,6 +283,25 @@
               Mauris molestie posuere dictum. Aenean finibus nisl condimentum nulla suscipit, sed bibendum quam dapibus. Cras finibus <br>
               augue sed purus aliquet maximus. Aenean porta felis sit amet risus tincidunt gravida.</p>
           </div>
+          <div class="divisor">
+            <div class="linea1">
+              &nbsp;
+            </div>
+            <div class="linea2">
+              &nbsp;
+            </div>
+          </div>
+          <div class="divisor2">
+            <div class="linea3">
+              &nbsp;
+            </div>
+            <div class="leyenda">
+              Divisor
+            </div>
+            <div class="linea3">
+              &nbsp;
+            </div>
+          </div>
           <div class="cabecera">
             <div class="imagen">
               <img src="./img/tumblr_oi470uI3r01sito2vo1_640.png" width="42px" height="42px">
@@ -311,7 +334,7 @@
             </div>
           </div>
           <div class="cabecera">
-            <div class="imagen">
+            <div class="imagen2">
               <img src="./img/tumblr_oi470uI3r01sito2vo1_640.png" width="42px" height="42px">
             </div>
             <div class="datos">
@@ -381,7 +404,7 @@
                 </div>
                 <div class="button">
                   <div class="line2">
-                    <button type="button" class="button-icon"> <img src="./img/more-vertical.svg" width="18px" height="18px"> </button>
+                    <button type="button" class="button-icon"> <img src="./img/more-vertical.svg" width="26px" height="26px"> </button>
                   </div>
                 </div>
               </div>
@@ -409,7 +432,7 @@
                 </div>
                 <div class="button2">
                   <div class="line2">
-                    <button type="button" class="button-icon"> <img src="./img/more-vertical.svg" width="18px" height="18px"> </button>
+                    <button type="button" class="button-icon"> <img src="./img/more-vertical.svg" width="26px" height="26px"> </button>
                   </div>
                 </div>
               </div>
@@ -513,10 +536,10 @@
     <header>
       <div class="main__navbar-serch">
         <div class="main__search">
-          <i class="fa fa-menu icon-menu"></i>
-          <label> <b>monad</b>orchestra</label>
-          <i class="fa fa-clock icon-clock"></i>
-          <label id="element">ELEMENT</label>
+          <i class="fa fa-menu icon-menu" id="menu"></i>
+          <label> <b id="monad">monad</b>orchestra</label>
+          <i class="fa fa-clock icon-clock" id="clock"></i>
+          <label id="element"> <b>ELEMENT</b> </label>
           <input type="text">
           <button class="button-icon"><i class="fa fa-serch icon-search"></i></button>
         </div>
